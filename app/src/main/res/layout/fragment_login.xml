@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".LoginFragment">
+
+    <TextView
+        android:text="Login"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:src="@drawable/binar"
+        android:layout_width="150dp"
+        android:layout_height="100dp"/>
+    <EditText
+        android:id="@+id/et_nohp"
+        android:hint="Masukkan No Hp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/kotak"
+        android:paddingStart="15dp"
+        android:layout_width="380dp"
+        android:layout_height="50dp"/>
+    <EditText
+        android:id="@+id/et_pass"
+        android:hint="Masukkan Password"
+        android:background="@drawable/kotak"
+        android:paddingStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="380dp"
+        android:layout_height="50dp"/>
+    <Button
+        android:id="@+id/btn_masuk"
+        android:text="Masuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tv_daftar"
+        android:text="Daftar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

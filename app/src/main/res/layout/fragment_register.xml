@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterFragment">
+
+    <TextView
+        android:text="Daftar"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:src="@drawable/binar"
+        android:layout_width="150dp"
+        android:layout_height="100dp"/>
+    <EditText
+        android:id="@+id/input_nohp"
+        android:hint="Input No Hp"
+        android:background="@drawable/kotak"
+        android:layout_marginTop="10dp"
+        android:paddingStart="15dp"
+        android:layout_width="400dp"
+        android:layout_height="50dp"/>
+    <EditText
+        android:id="@+id/input_email"
+        android:hint="Input Email"
+        android:paddingStart="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/kotak"
+        android:layout_width="400dp"
+        android:layout_height="50dp"/>
+    <EditText
+        android:id="@+id/input_nama"
+        android:hint="Input Nama"
+        android:paddingStart="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/kotak"
+        android:layout_width="400dp"
+        android:layout_height="50dp"/>
+    <EditText
+        android:id="@+id/input_pass"
+        android:hint="Input Password"
+        android:paddingStart="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/kotak"
+        android:layout_width="400dp"
+        android:layout_height="50dp"/>
+    <EditText
+        android:id="@+id/input_ulangipass"
+        android:hint="Ulangi Password"
+        android:paddingStart="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/kotak"
+        android:layout_width="400dp"
+        android:layout_height="50dp"/>
+    <Button
+        android:id="@+id/btn_daftar"
+        android:layout_marginTop="10dp"
+        android:text="Masuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
