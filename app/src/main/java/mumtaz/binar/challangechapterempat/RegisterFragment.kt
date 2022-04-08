@@ -12,7 +12,6 @@ import kotlinx.android.synthetic.main.fragment_register.*
 
 
 class RegisterFragment : Fragment() {
-
     private lateinit var prefs: SharedPreferences
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

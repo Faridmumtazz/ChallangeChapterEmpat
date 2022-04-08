@@ -14,6 +14,7 @@ import kotlinx.android.synthetic.main.fragment_login.*
 
 
 class LoginFragment : Fragment() {
+    private var mdb : StatusDatabase? = null
     private lateinit var prefsLogin : SharedPreferences
     private lateinit var prefsRegister : SharedPreferences
 
@@ -46,6 +47,8 @@ class LoginFragment : Fragment() {
         btn_masuk.setOnClickListener{
             val getNoHp =et_nohp.text.toString()
             val getPas = et_pass.text.toString()
+
+
 
             if (getNoHp == no && getPas == pass){
                 prefsLogin.edit().putString("nama", nama).apply()
