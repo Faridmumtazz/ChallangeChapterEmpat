@@ -7,6 +7,7 @@ import androidx.room.RoomDatabase
 
 @Database(entities = [Status::class], version = 1)
 abstract class StatusDatabase : RoomDatabase() {
+
     abstract fun statusDao () : StatusDao
 
     companion object{
